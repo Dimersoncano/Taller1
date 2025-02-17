@@ -1,4 +1,4 @@
-package Taller11;
+ package Taller11;
 import javax.swing.JOptionPane;
 
 public class Main {
@@ -12,7 +12,7 @@ public class Main {
         Libro libro = new Libro(titulo, autor, paginas);
 
         // objeto cclasecuentabancaria
-        
+            
         String numeroCuenta = JOptionPane.showInputDialog("Ingrese el número de cuenta:");
         String tipoCuenta = JOptionPane.showInputDialog("Ingrese el tipo de cuenta:");
         double saldo = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el saldo inicial:"));
